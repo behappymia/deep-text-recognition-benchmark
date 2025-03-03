@@ -11,7 +11,7 @@ from dataset import RawDataset, AlignCollate
 from model import Model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-
+# comment
 def demo(opt):
     """ model configuration """
     if 'CTC' in opt.Prediction:
